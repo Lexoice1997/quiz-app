@@ -1,0 +1,14 @@
+.question-paginate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+  .results {
+    display: flex;
+
+    button {
+      margin-left: 20px;
+    }
+  }
+}

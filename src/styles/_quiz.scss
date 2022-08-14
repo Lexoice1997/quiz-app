@@ -1,0 +1,33 @@
+.quiz {
+  .question {
+    border: 1px solid rgb(214, 199, 199);
+    padding: 20px;
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .red {
+      background-color: rgb(250, 106, 106);
+    }
+
+    .green {
+      background-color: rgb(55, 245, 55);
+    }
+  }
+}
+
+.questions-pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+
+  .blue {
+    background-color: rgb(102, 102, 235);
+  }
+}
